@@ -1,49 +1,130 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>simple web page without css</title>
-    <style>
-h1,h3{
- text-align:center;
-}</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <style>*{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #fff000;
+        background: url(http://bestanimations.com/Signs&Shapes/Hearts/manyhearts/cute-tiny-heart-pattern-floating-up-animated-gif.gif );
+    }
+    .bg{
+        width: 100%;
+        background: url(http://bestanimations.com/Signs&Shapes/Hearts/manyhearts/small-hearts-falling-animated-attern-gif.gif#.XockJwAw_1E.link.jpg);
+        height: 50px;
+
+    }
+    figure{
+        display: block;
+        transform-origin: center center;
+        transform-style: preserve-3d;
+        animation: wobble 5s ease-in-out infinite;
+    }
+ @keyframes wobble {
+    0%{
+        transform: rotate3d(1,1,0,25deg);
+
+    }
+    25%{
+        transform: rotate3d(1,-1,0,25deg);
+
+    }
+    50%{
+        transform: rotate3d(-1,-1,0,25deg);
+
+    }
+    75%{
+        transform: rotate3d(1,-1,0,25deg);
+
+    }
+    
+    
+ }
+ h1{
+    display: block;
+    line-height: 1.5;
+    font: 900 35px 'Concert One', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    user-select: none;
+    animation: glow 10s ease-in-out infinite;
+    transform: translate(-50% ,-20%); 
+
+ }
+ h1:nth-child(1){
+    transform: translateZ(25px);
+ }
+ h1:nth-child(2){
+    transform: translateZ(30px);
+ } 
+ h1:nth-child(3){
+    transform: translateZ(40px);
+ } 
+ h1:nth-child(4){
+    transform: translateZ(45px);
+ }
+ h1:nth-child(5){
+    transform: translateZ(50px);
+ }
+
+ @keyframes glow {
+0%,100%{
+    text-shadow: 0 0 30px red;
+
+}    
+25%{
+    text-shadow: 0 0 30px orange;
+}
+75%{
+    text-shadow: 0 0 30px cyan ;
+}
+50%{
+    text-shadow: 0 0 30px forestgreen ;
+}
+
+ }
+    </style>
 </head>
-<body background="https://images.app.goo.gl/SM5uaPKvDNqbSb1v5">
-<br/>
-<h3 text align="center">
-<font face="lato" size="6">LOGO</font>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<font face="cinzel" size="4">
-<a href="#">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-<a href="#">VIDEOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-<a href="#">PORTFOLIO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-<a href="#">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-<a href="#">CONTACT</a></h3>
-<br/>
-<br/>
-<br/>
-<h1>
-<font face="lato" size="7">
-BEAUTIFUL AND SIMPLE WEB PAGE
-</font>
+<body>
+    <h3 style="text-align: center; color: red;">Ramdan Mubarak</h3>
+    <br>
+    <h4  style="text-align: center; color:black; font-weight: 500;"> Ramdan Mubarak 2023</h4>
+    <br>
+    <br>
 
-</h1>
-<h3>
-<font face="lato" color="blue" size="5">
-USING HTML ONLY(NO CSS)
-</font>
-</h3>
-<br />
-<h3>
-<a href="#"><font face="lato" color="black">GET STARTED</font></a>
-&nbsp;&nbsp;
-<a href="#"><font face="lato" color="#fff">SUBSCRIBE US</font></a>
-</h3>
-
-
-
+    <div class="bg">
+        <figure>
+            <h1 style="text-transform: uppercase;"><script>
+                var a= prompt("Enter Your Name \n\n 👍👍👍👍");
+                document.write(a);
+            </script></h1>
+    <h1 style="text-transform: uppercase;">
+    <script>
+        document.write(a);
+    </script></h1>
+<h1 style="text-transform: uppercase;">
+    <script>
+        document.write(a);
+    </script></h1>
+<h1 style="text-transform: uppercase;">
+    <script>
+        document.write(a);
+    </script></h1>
+<br>
+</figure>
+</div>
+<br>
+<br><br><br><br><br><br>
+<h2 style="text-align: center;">Ramdzan-Ul-Mubarak</h2><br>
+<h2 style="text-align: center;">In</h2><br>
+<h2 style="text-align: center;">Advance</h2><br>
+<img src="https://www.istockphoto.com/vector/ramadan-mubarak-english-calligraphy-text-on-green-background-with-lanterns-moon-gm1220096007-357120617" width="35%" height="35%" style="position: absolute; top: 70%; left: 50%; transform: translate(-50%,-50%); border: 3px dotted red;">
 </body>
 </html>
